@@ -1570,11 +1570,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
-  m_RootOrder: 2
-=======
   m_RootOrder: 6
->>>>>>> 42e241d1715144fa82ed83571ce4371f3bd2f619
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &891943802
 GameObject:
@@ -2131,11 +2127,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
-  m_RootOrder: 8
-=======
   m_RootOrder: 9
->>>>>>> 42e241d1715144fa82ed83571ce4371f3bd2f619
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1397864391
 MonoBehaviour:
@@ -3132,7 +3124,7 @@ GameObject:
   - component: {fileID: 2094664316}
   - component: {fileID: 2094664315}
   m_Layer: 5
-  m_Name: CanvasCustomLobby
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3208,11 +3200,7 @@ RectTransform:
   - {fileID: 1944854054}
   - {fileID: 766557655}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
-  m_RootOrder: 3
-=======
   m_RootOrder: 7
->>>>>>> 42e241d1715144fa82ed83571ce4371f3bd2f619
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
