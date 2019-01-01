@@ -37,4 +37,5 @@ MonoBehaviour:
   - RPC_Shooting
   - RPC_GetTeam
   - RPC_SendTeam
+  - RPC_Boost
   DisableAutoOpenWizard: 1
