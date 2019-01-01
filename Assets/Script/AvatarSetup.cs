@@ -25,8 +25,8 @@ public class AvatarSetup : MonoBehaviour {
         }
         else
         {
-            Destroy(playerCamera);
-            Destroy(playerAudioListener);
+            //Destroy(playerCamera);
+            //Destroy(playerAudioListener);
         }
 	}
 	

@@ -8,6 +8,7 @@ public class AvatarCombat : MonoBehaviour {
 
     private PhotonView phView;
     private AvatarSetup playerAvatarSetup;
+    private Rigidbody rb;
 
     public Transform rayOrigin;
     public Text displayHealth;
@@ -17,6 +18,7 @@ public class AvatarCombat : MonoBehaviour {
 
         phView = GetComponent<PhotonView>();
         playerAvatarSetup = GetComponent<AvatarSetup>();
+        rb = GetComponent<Rigidbody>();
         displayHealth = GameSetup._gs.healthDisplay;
 
 	}
@@ -31,12 +33,23 @@ public class AvatarCombat : MonoBehaviour {
             return;
         }
 
-        if (Input.GetMouseButton(0))
+        //if (Input.GetMouseButton(0))
+        //{
+        //    phView.RPC("RPC_Shooting", RpcTarget.All);
+        //}
+
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            phView.RPC("RPC_Shooting", RpcTarget.All);
+            rb.AddForce(Vector3.forward * 5);
         }
-        
+
 	}
+
+    [PunRPC]
+    void RPC_Boost()
+    {
+
+    }
 
     [PunRPC]
     void RPC_Shooting()
